@@ -1,29 +1,11 @@
-.box1 {
+.item {
   height: 50px;
   width: 50px;
   background-color: green;
 }
-.box2 {
-  height: 50px;
-  width: 50px;
-  background-color: red;
-}
-.box3 {
-  height: 50px;
-  width: 50px;
-  background-color: blue;
-}
+
 .holder {
   display: flex;
   justify-content: space-between;
-}
-.item {
-  display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-}
-.item .box-1,
-.item .box-2,
-.item .box-3 {
-  margin-right: 5px;
 }
